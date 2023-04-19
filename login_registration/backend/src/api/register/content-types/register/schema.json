@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "registers",
+  "info": {
+    "singularName": "register",
+    "pluralName": "registers",
+    "displayName": "Register"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "First_name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 10,
+      "minLength": 2
+    },
+    "Last_name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20,
+      "minLength": 2
+    },
+    "Input_password": {
+      "type": "password"
+    },
+    "Confirm_password": {
+      "type": "password"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}

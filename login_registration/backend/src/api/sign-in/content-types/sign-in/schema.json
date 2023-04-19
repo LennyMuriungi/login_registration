@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "sign_ins",
+  "info": {
+    "singularName": "sign-in",
+    "pluralName": "sign-ins",
+    "displayName": "Sign_in"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Username": {
+      "type": "string"
+    },
+    "Input_password": {
+      "type": "password"
+    }
+  }
+}
